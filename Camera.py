@@ -17,7 +17,7 @@ class Camera:
         image_file_name = "image.png"
         if result:
             # show result: frame name and image
-            cv2.imshow("image", image) 
+            cv2.imshow("window", image) 
             cv2.imwrite(image_file_name, image) 
             cv2.waitKey(0) 
             cv2.destroyWindow("window")
