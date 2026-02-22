@@ -39,7 +39,7 @@ home_euler = calc.to_rad([93.9, 63.8, 17.6])
 home_quat = calc.EulerXYZ2Quaternion(home_euler)
 
 # Set up key for models.
-key = 'sk-proj-Ksxqe0dz46vcPGc2Md5HT3BlbkFJtSoLEZjNInsUEPUZh9QV'
+key = ''
 
 def _get_models(key: str) -> Tuple[GPT4.GPT4, GPT4_vision.GPT4_vision]:
     """Gets the text and vision-text LLMs.
