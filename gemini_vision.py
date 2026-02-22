@@ -10,7 +10,7 @@ import google.generativeai as genai
 from google.colab import auth
 
 auth.authenticate_user()
-api_key = 'AIzaSyDirdojy8pxeC69XtPiMh_WKwzwK0kh0PU'
+api_key = ''
 genai.configure(api_key=api_key)
 
 pro_model = genai.GenerativeModel('gemini-pro-vision')
